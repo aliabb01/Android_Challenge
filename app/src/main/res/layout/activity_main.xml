@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/parent"
+    >
 
     <ImageView
         android:id="@+id/imgProfile"
